@@ -22,9 +22,9 @@ SPOONACULAR_API_KEY = os.environ.get"ff2074b38a1a47a5bc8132a80e3ba538"
 YANDEX_API_KEY = os.environ.get"AQVNyxYCuPqzNZo7EJsPQlGWouQLkpoozqiSYTP_"
 
 # Для локального запуска — раскомментируй и вставь свои ключи:
- TELEGRAM_TOKEN = ""
- SPOONACULAR_API_KEY = ""
- YANDEX_API_KEY = ""
+# TELEGRAM_TOKEN = ""
+# SPOONACULAR_API_KEY = ""
+# YANDEX_API_KEY = ""
 
 if not TELEGRAM_TOKEN:
     raise ValueError("TELEGRAM_TOKEN не задан! Установи переменную окружения.")
