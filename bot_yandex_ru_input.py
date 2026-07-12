@@ -17,9 +17,9 @@ from telegram.ext import (
 )
 
 # === НАСТРОЙКИ ===
-TELEGRAM_TOKEN = os.environ.get("8872185584:AAG7DZtkhL0tsXYkqCTC1XH_oKLEhUZIDz8")
-SPOONACULAR_API_KEY = os.environ.get("ff2074b38a1a47a5bc8132a80e3ba538")
-YANDEX_API_KEY = os.environ.get("AQVNyxYCuPqzNZo7EJsPQlGWouQLkpoozqiSYTP_")
+TELEGRAM_TOKEN = os.environ.get"8872185584:AAG7DZtkhL0tsXYkqCTC1XH_oKLEhUZIDz8"
+SPOONACULAR_API_KEY = os.environ.get"ff2074b38a1a47a5bc8132a80e3ba538"
+YANDEX_API_KEY = os.environ.get"AQVNyxYCuPqzNZo7EJsPQlGWouQLkpoozqiSYTP_"
 
 # Для локального запуска — раскомментируй и вставь свои ключи:
  TELEGRAM_TOKEN = ""
