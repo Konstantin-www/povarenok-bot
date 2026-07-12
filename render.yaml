@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: recipe-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_yandex_ru_input.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        sync: false
+      - key: SPOONACULAR_API_KEY
+        sync: false
+      - key: YANDEX_API_KEY
+        sync: false
+      - key: WEBHOOK_URL
+        sync: false
